@@ -26,5 +26,10 @@
         <source>PushButton</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="learning_fun.ui" line="119"/>
+        <source>TextLabel</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

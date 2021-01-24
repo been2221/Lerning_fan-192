@@ -25,6 +25,9 @@ private slots:
 
 private:
     Ui::Learning_fun *ui;
-    int cout;
+    int cout =0;
+    int sign =0;
+    int arg2 =0;
+    int arg1 =0;
 };
 #endif // LEARNING_FUN_H
