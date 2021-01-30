@@ -9,26 +9,36 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="learning_fun.ui" line="30"/>
-        <location filename="learning_fun.ui" line="37"/>
-        <location filename="learning_fun.ui" line="44"/>
-        <location filename="learning_fun.ui" line="51"/>
+        <location filename="learning_fun.ui" line="38"/>
+        <location filename="learning_fun.ui" line="53"/>
+        <location filename="learning_fun.ui" line="68"/>
+        <location filename="learning_fun.ui" line="83"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TextLabel&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="learning_fun.ui" line="67"/>
+        <location filename="learning_fun.ui" line="99"/>
         <source>update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="learning_fun.ui" line="80"/>
+        <location filename="learning_fun.ui" line="112"/>
         <source>PushButton</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="learning_fun.ui" line="119"/>
+        <location filename="learning_fun.ui" line="158"/>
         <source>TextLabel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="learning_fun.ui" line="181"/>
+        <source>correctly</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="learning_fun.ui" line="194"/>
+        <source>incorrectly</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

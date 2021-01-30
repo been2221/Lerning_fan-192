@@ -1,6 +1,5 @@
 #ifndef LEARNING_FUN_H
 #define LEARNING_FUN_H
-
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -25,7 +24,8 @@ private slots:
 
 private:
     Ui::Learning_fun *ui;
-    int cout =0;
+    int score =0;
+    int incorrect= 0;
     int sign =0;
     int arg2 =0;
     int arg1 =0;

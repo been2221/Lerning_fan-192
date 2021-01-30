@@ -6,6 +6,7 @@ Learning_fun::Learning_fun(QWidget *parent)
     , ui(new Ui::Learning_fun)
 {
     ui->setupUi(this);
+    ui->equally->setText("=");
 }
 Learning_fun::~Learning_fun()
 {
@@ -17,23 +18,13 @@ void Learning_fun::updateFun(){
     arg1=1+qrand()%10;
     ui->second_argument->setNum(arg2);
     ui->first_argument->setNum(arg1);
-    switch (sign) {
 
-    case 0:
+    if(sign == 0 || sign == 2){
         ui->act->setText("+");
-        break;
-    case 1:
-        ui->act->setText("-");
-        break;
-    case 2:
-        ui->act->setText("+");
-        break;
-    case 3:
-        ui->act->setText("-");
-        break;
-
     }
-
+    if(sign == 1 || sign == 3){
+        ui->act->setText("-");
+    }
 }
 
 
@@ -52,13 +43,19 @@ void Learning_fun::on_pushButton_clicked()
          if (sign == 0 || sign == 2) chek = arg1+arg2;
          else chek = arg1-arg2;
     if (answInt == chek){
-        cout++;
+        score++;
         this->updateFun();
     }
+    else {
+        incorrect++;
+    }
     ui->label->setText(answer);
-    ui->lcdNumber->display(cout);
+    ui->lcdNumber->display(score);
+    ui->lcdNumber_2->display(incorrect);
 
 }
+
+
 
 void Learning_fun::on_lineEdit_textEdited(const QString &arg1)
 {
