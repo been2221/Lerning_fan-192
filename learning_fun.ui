@@ -269,19 +269,6 @@
      <string>incorrectly</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton">
-    <property name="geometry">
-     <rect>
-      <x>1000</x>
-      <y>350</y>
-      <width>83</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>RadioButton</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
@@ -359,8 +346,8 @@
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>-10</x>
-      <y>410</y>
+      <x>10</x>
+      <y>390</y>
       <width>1331</width>
       <height>341</height>
      </rect>
@@ -378,25 +365,6 @@
      <bool>true</bool>
     </property>
     <property name="openExternalLinks">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_11">
-    <property name="geometry">
-     <rect>
-      <x>370</x>
-      <y>440</y>
-      <width>121</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../../Documents/hello_html_m272351d0.png</pixmap>
-    </property>
-    <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
@@ -555,6 +523,57 @@
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>430</y>
+      <width>241</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>40</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>вызвать второе окно</string>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>460</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -594,7 +613,6 @@
   <tabstop>update_butt</tabstop>
   <tabstop>pushButton</tabstop>
   <tabstop>lineEdit</tabstop>
-  <tabstop>radioButton</tabstop>
  </tabstops>
  <resources/>
  <connections/>

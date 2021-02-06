@@ -35,6 +35,11 @@ if(ANDROID)
     learning_fun.cpp
     learning_fun.h
     learning_fun.ui
+    form.ui
+    window.h
+    window.cpp
+
+
     ${TS_FILES}
   )
 else()
@@ -43,6 +48,10 @@ else()
     learning_fun.cpp
     learning_fun.h
     learning_fun.ui
+    form.ui
+    window.h
+     window.cpp
+
     ${TS_FILES}
   )
 endif()

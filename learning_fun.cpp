@@ -1,6 +1,6 @@
 #include "learning_fun.h"
 #include "./ui_learning_fun.h"
-
+#include <QSound>
 
 Learning_fun::Learning_fun(QWidget *parent)
     : QMainWindow(parent)
@@ -63,17 +63,12 @@ void Learning_fun::on_lineEdit_textEdited(const QString &arg1)
 {
 
 
+
 }
 
 
-
-
-void Learning_fun::on_radioButton_clicked()
+void Learning_fun::on_pushButton_3_clicked()
 {
+    QSound::play(":/trumpet.wav");
 
-        m_player = new QMediaPlayer;
-        connect(m_player, SIGNAL(positionChanged(qint64)) ,this, SLOT(positionChanged(qint64)));
-        m_player->setMedia(QUrl::fromLocalFile("file:///C:/Users/Admin/Desktop/learning_fun/Open Source - Never Forever_(Inkompmusic.ru).mp3"));
-        m_player->setVolume(100);
-        m_player->play();
 }

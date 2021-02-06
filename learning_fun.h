@@ -30,7 +30,7 @@ private slots:
 
     void on_lineEdit_textEdited(const QString &arg1);
 
-    void on_radioButton_clicked();
+    void on_pushButton_3_clicked();
 
 private:
     Ui::Learning_fun *ui;
@@ -39,8 +39,8 @@ private:
     int sign =0;
     int arg2 =0;
     int arg1 =0;
- QMediaPlayer* m_player;
-  QMediaPlaylist* m_playlist;
+    QMediaPlayer* m_player;
+    QMediaPlaylist* m_playlist;
 
 
 };

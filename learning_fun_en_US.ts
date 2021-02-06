@@ -2,6 +2,19 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="en_US">
 <context>
+    <name>Form</name>
+    <message>
+        <location filename="form.ui" line="14"/>
+        <source>Form</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="form.ui" line="35"/>
+        <source>вызвать первое окно</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Learning_fun</name>
     <message>
         <location filename="learning_fun.ui" line="20"/>
@@ -23,6 +36,7 @@
     </message>
     <message>
         <location filename="learning_fun.ui" line="161"/>
+        <location filename="learning_fun.ui" line="574"/>
         <source>PushButton</source>
         <translation type="unfinished"></translation>
     </message>
@@ -42,17 +56,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="learning_fun.ui" line="282"/>
-        <source>RadioButton</source>
+        <location filename="learning_fun.ui" line="545"/>
+        <source>вызвать второе окно</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="learning_fun.ui" line="572"/>
+        <location filename="learning_fun.ui" line="591"/>
         <source>toolBar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="learning_fun.ui" line="583"/>
+        <location filename="learning_fun.ui" line="602"/>
         <source>toolBar_2</source>
         <translation type="unfinished"></translation>
     </message>
