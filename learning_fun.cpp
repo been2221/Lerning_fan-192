@@ -1,6 +1,7 @@
-#include "learning_fun.h"
+﻿#include "learning_fun.h"
 #include "./ui_learning_fun.h"
-#include <QSound>
+#include "second_window.h"
+
 
 Learning_fun::Learning_fun(QWidget *parent)
     : QMainWindow(parent)
@@ -29,9 +30,6 @@ void Learning_fun::updateFun(){
     }
 }
 
-
-
-
 void Learning_fun::on_update_butt_clicked()
 {
     this->updateFun();
@@ -57,18 +55,24 @@ void Learning_fun::on_pushButton_clicked()
 
 }
 
-
-
 void Learning_fun::on_lineEdit_textEdited(const QString &arg1)
 {
 
 
-
 }
 
+void Learning_fun::on_pushButton_2_clicked()
+{
+    QSound::play("/Open Source - Never Forever_(Inkompmusic.ru).mp3");
+
+}
 
 void Learning_fun::on_pushButton_3_clicked()
 {
-    QSound::play(":/trumpet.wav");
+      hide();
+    second_Window wind;
+    wind.setModal(true);
+    wind.exec();
 
 }
+
