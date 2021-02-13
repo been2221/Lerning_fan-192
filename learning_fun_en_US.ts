@@ -2,6 +2,19 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="en_US">
 <context>
+    <name>Form</name>
+    <message>
+        <location filename="form.ui" line="14"/>
+        <source>Form</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="form.ui" line="35"/>
+        <source>вызвать первое окно</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Learning_fun</name>
     <message>
         <location filename="learning_fun.ui" line="20"/>

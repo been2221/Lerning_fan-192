@@ -63,7 +63,7 @@ void Learning_fun::on_lineEdit_textEdited(const QString &arg1)
 
 void Learning_fun::on_pushButton_2_clicked()
 {
-    QSound::play("/Open Source - Never Forever_(Inkompmusic.ru).mp3");
+    QSound::play("qrc:/oreve.mp3");
 
 }
 
